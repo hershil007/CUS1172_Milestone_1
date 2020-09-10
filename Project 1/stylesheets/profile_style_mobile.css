@@ -1,0 +1,318 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #282828;
+}
+
+p
+{
+    font-size: large;
+}
+
+.header
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #bbe2ed;
+    border-bottom-width: thin;
+}
+
+.title
+{
+    padding-top: 15px;
+    color: #03c2fc;
+}
+
+@media print
+{
+    .btn_group
+    {
+        display: none;
+    }
+    audio
+    {
+        display: none;
+    }
+    video
+    {
+        display: none;
+    }
+    iframe
+    {
+        display: none;
+    }
+    input[type=submit]
+    {
+        display: none;
+    }
+}
+
+#page_title
+{
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.btn_group
+{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+}
+
+.btn_group button
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn_group button:not(:last-child)
+{
+    border-right:none;
+}
+
+.btn_group button:hover
+{
+    background-color: #0088ff;
+    color:#000000;
+}
+
+#intro
+{
+    position: relative;
+}
+
+#intro h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+
+#intro p
+{
+    color: #f1f1f1;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+#education
+{
+    position: relative;
+}
+
+#education h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+
+#education p
+{
+    color: #f1f1f1;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+#work_experience
+{
+    position: relative;
+}
+
+#work_experience h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+
+#work_experience ul
+{
+    color: #f1f1f1;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+#programming_skills
+{
+    position: relative;
+}
+
+#programming_skills h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 250px;
+}
+
+#programming_table
+{
+    padding-left: 1%;
+    padding-top: 50px;
+}
+
+#programming_table table
+{
+    width: 100%;
+}
+
+tr
+{
+    color: #181818;
+}
+
+#favorite_media
+{
+    position: relative;
+}
+
+#favorite_media h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 700px;
+}
+
+#favorite_media h5
+{
+    color: #f1f1f1;
+}
+
+#favorite_media ul
+{
+    padding-left: 5%;
+    padding-top: 50px;
+    list-style-type: none;
+}
+
+#favorite_media audio
+{
+    padding-left: 20px;
+}
+
+#favorite_media video
+{
+    width: 300px;
+    height: 250px;
+}
+
+#favorite_media iframe
+{
+    width: 300px;
+    height: 250px;
+}
+
+
+#favorite_website
+{
+    position: relative;
+    display: flex;
+}
+
+#favorite_website h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
+#favorite_website h4
+{
+    color: #f1f1f1;
+    padding-left: 10%;
+    padding-top: 50px;
+}
+
+#favorite_website a
+{
+    padding-top: 100px;
+    padding-right: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#projects
+{
+    position: relative;
+}
+
+#projects h3
+{
+    color: #03c2fc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+
+#projects ul
+{
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+#projects li
+{
+    color: #f1f1f1;
+    padding-left: 25px;
+}
+
+
+input[type=submit]
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover
+{
+    background-color: #0088ff;
+    color:#000000;
+}
