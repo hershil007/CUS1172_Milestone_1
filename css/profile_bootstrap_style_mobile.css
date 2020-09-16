@@ -1,0 +1,250 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #282828;
+}
+
+p
+{
+    font-size: large;
+}
+
+h1
+{
+    color: #f1f1f1;
+}
+
+
+.header
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #bbe2ed;
+    border-bottom-width: thin;
+}
+
+.title
+{
+    padding-top: 15px;
+    color: #03c2fc;
+}
+
+@media print
+{
+    .btn_group
+    {
+        display: none;
+    }
+    audio
+    {
+        display: none;
+    }
+    video
+    {
+        display: none;
+    }
+    iframe
+    {
+        display: none;
+    }
+    input[type=submit]
+    {
+        display: none;
+    }
+}
+
+#page_title
+{
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.nav-item
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: left;
+}
+
+.nav-link
+{
+    color: #f1f1f1;
+}
+
+.nav-item:hover
+{
+    background-color: #0088ff;
+    color:#000000;
+}
+
+#intro
+{
+    position: relative;
+}
+
+#intro h3
+{
+    color: #03c2fc;
+}
+
+#intro p
+{
+    color: #f1f1f1;
+}
+
+#education
+{
+    position: relative;
+}
+
+#education h3
+{
+    color: #03c2fc;
+}
+
+#education p
+{
+    color: #f1f1f1;
+}
+
+#work_experience
+{
+    position: relative;
+}
+
+#work_experience h3
+{
+    color: #03c2fc;
+}
+
+#work_experience ul
+{
+    color: #f1f1f1;
+}
+
+#programming_skills
+{
+    position: relative;
+}
+
+#programming_skills h3
+{
+    color: #03c2fc;
+}
+
+#programming_table
+{
+    padding-left: 35%;
+    padding-top: 50px;
+}
+
+#programming_table table
+{
+    width: 100%;
+}
+
+tr
+{
+    color: #181818;
+}
+
+#favorite_media
+{
+    position: relative;
+}
+
+#favorite_media h3
+{
+    color: #03c2fc;
+}
+
+#favorite_media h5
+{
+    color: #f1f1f1;
+}
+
+#favorite_media ul
+{
+    list-style-type: none;
+}
+
+#favorite_media video
+{
+    width: 500px;
+    height: 350px;
+}
+
+#favorite_media iframe
+{
+    width: 500px;
+    height: 350px;
+}
+
+#favorite_website
+{
+    position: relative;
+}
+
+#favorite_website h3
+{
+    color: #03c2fc;
+
+}
+
+#favorite_website h4
+{
+    color: #f1f1f1;
+
+}
+
+
+#projects
+{
+    position: relative;
+}
+
+#projects h3
+{
+    color: #03c2fc;
+
+}
+
+#projects ul
+{
+    list-style: none;
+}
+
+#projects li
+{
+    color: #f1f1f1;
+}
+
+input[type=submit]
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover
+{
+    background-color: #0088ff;
+    color:#000000;
+}
